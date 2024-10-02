@@ -1,0 +1,11 @@
+@HelloWorldApi_HostAddress = http://172.212.40.96
+
+GET {{HelloWorldApi_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{HelloWorldApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
