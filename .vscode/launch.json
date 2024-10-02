@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: server Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/HelloWorldApi/HelloWorldApi.csproj"
+        }, 
+        {
+            "name": "C#: client Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/azure-function-consumer/azure-function-consumer.csproj"
+        }     
+    ]
+}
